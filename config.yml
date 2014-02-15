@@ -1,0 +1,35 @@
+#A list of Illegal Item ID's#
+item-ids:
+- '353'
+- '339'
+- '39'
+- '40'
+- '373:0'
+- '351:2'
+- '351:9'
+amount-to-search-for: 64
+#In Game Messages#
+cop-not-found-msg: '&e[Frisk] &cYou have failed to find anything on %player%!'
+cop-found-msg: '&e[Frisk] &bYou have found some %itemname% on %player%!'
+player-not-found-msg: '&e[Frisk] &b%cop% frisked you and found nothing!'
+player-found-msg: '&e[Frisk] &c%cop% frisked you and found some %itemname%!'
+player-report-message: '&e[Report] &cA report has been made by %snitch% that %reported% has drugs!'
+#A list of Illegal Item Names#
+item-names:
+- 'Sugar'
+- 'Paper'
+- 'Brown Mushroom'
+- 'Red Mushroom'
+- 'Water Bottle'
+- 'Green Dye'
+- 'Pink Dye'
+#After how long do you want the plugin to check for an update? (in minutes)#
+check-time: 15
+#Do you want to allow reporting?#
+allow-reporting: true
+#Enable Auto-Jailing?#
+auto-jail: true
+#IF auto-jail is true, what jail will they go to?#
+jail-name: jail 
+#How long should they stay in Jail? (Goes By Seconds)#
+time-in-jail: 60
